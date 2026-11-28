@@ -821,6 +821,7 @@ header nav .form i {
 @media (max-width: 991px) {
   .subscribe .container {
     flex-direction: column;
+    min-width: 0;
   }
 }
 .subscribe .container form {
@@ -990,7 +991,7 @@ header nav .form i {
   margin-right: 20px;
   cursor: pointer;
 }
-.footer .container .copyright span{
+.footer .container .copyright span {
   color: var(--main-color);
   font-weight: bold;
 }
